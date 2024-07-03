@@ -1,0 +1,158 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+.menu-bar{
+    background-color: #f0ffff;
+    text-align: center;
+    height: 113px;
+}
+.menu-bar img{
+    float:left;
+}
+.menu-bar ul{
+    display: inline-flex;
+    padding-top: 20px;
+}
+.menu-bar ul li{
+    width:120px;
+    margin: 15px;
+    padding:15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: orange;
+}
+.menu-bar ul li:hover{
+    background-color: aqua;
+}
+.sub-spices{
+    display: none;
+}
+.menu-bar ul li:hover .sub-spices{
+    display: block;
+    position: absolute;
+    background-color: #f0ffff;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-spices ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-spices ul li{
+        width: 150px;
+        padding: 10px;
+        text-align: left;
+}
+.sub-dishes{
+    display: none;
+}
+.menu-bar ul li:hover .sub-dishes{
+    display: block;
+    position: absolute;
+    background-color: #f0ffff;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-dishes ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-dishes ul li{
+        width: 150px;
+        padding: 10px;
+        text-align: left;
+}
+.sub-desserts{
+    display: none;
+}
+.menu-bar ul li:hover .sub-desserts{
+    display: block;
+    position: absolute;
+    background-color: #f0ffff;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-desserts ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-desserts ul li{
+        width: 150px;
+        padding: 10px;
+        text-align: left;
+}
+.home-content{
+    width: 500px;
+    height: 200px;
+    margin-top: 10%;
+    border: 4px solid #f0ffff;
+    margin: 0px auto;
+    margin-top: 5%;
+    text-align: center;
+    padding-top: 55px;
+}
+.home-content:hover{
+    border: 4px solid #66f0f0;
+    box-shadow: 1px 2px 2px 1px;
+    background-color: #f0ffff;
+}
+.various-spices{
+    margin-top: 20px;
+    text-align: center;
+}
+.spices-cumin{
+    margin-bottom:1%;
+}
+.page{
+    text-align: center;
+    margin-bottom: 120px;
+}
+.page{
+    text-align: center;
+    margin-bottom: 120px;
+}
+.page{
+    text-align: center;
+    margin-bottom: 120px;
+}
+.page{
+    text-align: center;
+    margin-bottom: 120px;
+}
+.various-dishes{
+    margin-top: 20px;
+    text-align: center;
+}
+.various-desserts{
+    margin-top: 20px;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+}
+p b{
+    font-size: 26px;
+}
+.contactus{
+    text-align: center;
+    padding: 10px;
+    margin: 75px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mainimg{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.cartdishes1,.cartdishes2{
+    display: flex;
+    justify-content: space-between;
+}
